@@ -37,3 +37,19 @@
     transform: translateY(0px);
   }
 }
+.bookConteiner{
+  display: flex;
+  flex-flow: row wrap;
+}
+ .bookElement{
+  flex: 0 30%;
+  padding: 1%;
+ 
+ }
+ .musicBook{
+  width: 70%;
+  height: auto;
+ }
+ .quantityBook{
+  width: 10%
+ }

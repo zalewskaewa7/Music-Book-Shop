@@ -1,11 +1,14 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import basket from './slice';
+
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    slice: basket,
   },
 });
+
+
 
 export type AppDispatch = typeof store.dispatch;
 export type RootState = ReturnType<typeof store.getState>;
