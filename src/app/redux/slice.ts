@@ -28,25 +28,3 @@ export const { addBook, removeBook } = slice.actions
 
 export default slice.reducer
 
-// export interface DataArrayState{
-//     dataArray: string[]
-//   }
-//   export const initialState: DataArrayState = {
-//     dataArray: [],
-//   }
-  
-//   export const slice = createSlice({
-//     name: "slice",
-//     initialState,
-//     reducers: {
-//   addTodo: (state, action: PayloadAction<string>) => {
-//   state.dataArray.push(action.payload);
-//   }
-//     },
-  
-//   })
-
-
-// export const { addTodo } = slice.actions
-
-// export default slice.reducer
